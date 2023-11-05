@@ -5,6 +5,7 @@ const { engine } = require('express-handlebars');
 
 const route = require('./routes');
 const db = require('./config/db');
+ 
 
 //Connect to DB
 db.connect();
